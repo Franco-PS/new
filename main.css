@@ -3,6 +3,81 @@ body{
   padding:0;
       font-family: 'Lato', sans-serif;
 }
-
+/*Fuentes*/
 h1{ font-family:mkda;}
 h2{font-family:mk4;}
+/*heder---------------------------------*/
+header{
+  color: white;
+  padding: 0;
+  margin:0;
+/* background-color: red;*/
+  position: relative;
+  /*display: flex;*/
+/*  flex-direction: column;*/
+/*  justify-content: center;*/
+/*align-items: center;*/
+}
+
+.titulo{
+  background-color: pink;
+  position:absolute;
+  left: 0;
+  right:0;
+  padding: 0;
+  z-index: 1;
+  bottom: 36%;
+  display:flex;
+  flex-direction: column;
+/*  justify-content: center;*/
+  align-items: center;
+}
+h1{
+  margin: 0px;
+  padding: 0 0px;
+  font-size: 7vw;
+/*  font-size: 7vh;*/
+  background-color: red;
+  border: 3px solid white;
+  background-clip: border-box;
+  border-style: dashed;
+
+}
+/*
+.button1{
+padding: 0;
+position: relative;
+top: 5px;
+  background-color: red;
+}*/
+
+
+figure{
+  margin: 0;
+  position:relative;
+  background-color:rgb(99,99,241, .4);
+}
+
+.coverImg{
+  position:relative;
+  z-index: -10;
+  width:100%;
+  clip-path:inset(0 0 17% 0);
+}
+
+figcaption{
+  position:absolute;
+  top:0;
+  left:0;
+  right: 0;
+  background-color:rgb(99,99,241, .9);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 34px;
+}
+
+.link-colaborador{
+  list-style: none;
+  display: flex;
+  /*margin: 1px solid white;*/
+}
